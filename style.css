@@ -21,6 +21,8 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
 }
 
 .word {
@@ -49,8 +51,23 @@ button {
     margin: 20px;
     text-align: center;
     display: none;
+    background-color: white;
+    color: rgb(17, 205, 17);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .translatedDiv p {
     margin: 20px;
+}
+
+.error {
+    display: none;
+    margin-top: 20px;
+    background-color: white;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
 }
